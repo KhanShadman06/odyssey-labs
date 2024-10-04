@@ -5,6 +5,7 @@ import TopSection from "./TopSection";
 import Image from 'next/image'
 import starWhite from './assets/star-white.svg'
 import HowItWorksSection from "./HowItWorksSection";
+import OurBestWorks from "./OurBestWorks";
 
 const MainDetails = () => {
     return (
@@ -31,8 +32,15 @@ const MainDetails = () => {
                 <div className='absolute -right-[2.7rem] top-24 bg-[#333] text-white -rotate-90'>
                     <p className="text-xs p-1 px-3 font-Archivo">HOW IT WORKS</p>
                 </div>
-                <article className="relative z-1 pt-44">
+                <article className="relative z-10 pt-44">
                     <HowItWorksSection />
+                </article>
+            </section>
+
+            <section className="relative bg-white pb-10">
+                <div className="absolute -top-7 left-0 right-0 h-20 bg-white transform -skew-y-[8deg]"></div>
+                <article className="relative pt-5">
+                    <OurBestWorks />
                 </article>
             </section>
         </div>

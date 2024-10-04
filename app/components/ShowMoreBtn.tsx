@@ -1,6 +1,6 @@
 import React from 'react'
 import diagonalArrowDark from '../assets/diagonal-arrow-dark.svg'
-import diagonalArrowGreen from '../assets/diagonal-arrow-green.svg'
+import diagonalArrowWhite from '../assets/diagonal-arrow-white.svg'
 
 import Image from 'next/image'
 interface ShowMoreBtnProps {
@@ -16,7 +16,7 @@ const ShowMoreBtn = ({ label, description, theme }: ShowMoreBtnProps) => {
                 <p className='font-Archivo text-[10px] text-start'>{description}</p>
                 <div className='flex justify-between'>
                     <p className='font-Archivo text-sm text-start'>{label}</p>
-                    {theme === 'dark' ? <Image src={diagonalArrowDark} alt='arrow' /> : <Image src={diagonalArrowGreen} alt='arrow' />}
+                    {theme === 'dark' ? <Image src={diagonalArrowDark} alt='arrow' /> : <Image src={diagonalArrowWhite} alt='arrow' />}
                 </div>
             </div>
         </section>
