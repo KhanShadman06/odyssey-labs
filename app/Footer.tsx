@@ -17,7 +17,7 @@ const Footer = () => {
             <h2 className='text-xl font-monument text-white text-center mt-5'>
                 Innovet. Inspire. Create
             </h2>
-            <h6 className='text-white font-Archivo text-center my-8 text-sm'>Copyright © 2024 Technova Studio. All rights reserved.</h6>
+            <h6 className='text-white font-Archivo text-center my-8 text-sm'>Copyright © 2024 Odyssey Labs. All rights reserved.</h6>
 
             <section>
 
