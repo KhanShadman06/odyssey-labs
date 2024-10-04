@@ -3,7 +3,7 @@ import React from 'react'
 import arrowRight from './assets/arrow-right.svg'
 import ProjectCard from './components/ProjectCard'
 import arrowRightFill from './assets/arrow-right-fill-dark.svg';
-import arrowLeftFill from './assets/arrow-left-fill-white.svg';
+import arrowLeftFill from './assets/arrow-left-dark.svg';
 import ServiceTag from './components/ServiceTag';
 import ArrowGreen from './assets/diagonal-arrow-green.svg';
 const OurBestWorks = () => {
