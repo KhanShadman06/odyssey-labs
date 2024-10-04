@@ -1,5 +1,6 @@
 import ProjectShowCase from "./ProjectShowCase"
 import ServiceShowCase from "./ServiceShowCase"
+import ServicesList from "./ServicesList"
 import TopSection from "./TopSection"
 
 const MainDetails = () => {
@@ -10,6 +11,7 @@ const MainDetails = () => {
             <article className="bg-white">
                 <ProjectShowCase />
                 <ServiceShowCase />
+                <ServicesList />
             </article>
         </div>
     )
