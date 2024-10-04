@@ -7,6 +7,7 @@ import starWhite from './assets/star-white.svg'
 import HowItWorksSection from "./HowItWorksSection";
 import OurBestWorks from "./OurBestWorks";
 import TestimonialsList from "./TestimonialsList";
+import Contact from "./Contact";
 
 const MainDetails = () => {
     return (
@@ -45,7 +46,7 @@ const MainDetails = () => {
                 </article>
             </section>
 
-            <section className="relative bg-[#222]">
+            <section className="relative bg-[#222] pb-16">
                 <div className="absolute -top-7 left-0 right-0 h-20 bg-white transform -skew-y-[8deg]"></div>
                 <Image src={starWhite} alt='star' className='absolute top-24 left-2 w-[20px]' />
                 <Image src={starWhite} alt='star' className='absolute top-6 right-6 w-[20px]' />
@@ -57,6 +58,14 @@ const MainDetails = () => {
                 </article>
             </section>
 
+            <section className="relative bg-white">
+                <div className="absolute -top-7 left-0 right-0 h-20 bg-[#9DFF50] transform -skew-y-[8deg]" />
+                <div className="absolute -top-1 left-0 right-0 h-20 bg-white transform -skew-y-[15deg]" />
+
+                <article className="relative z-10 pt-24">
+                    <Contact />
+                </article>
+            </section>
 
         </div>
     );
