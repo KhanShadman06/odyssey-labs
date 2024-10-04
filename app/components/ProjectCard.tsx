@@ -4,9 +4,10 @@ import star from '../assets/star.svg';
 interface ProjectCardProps {
     h: string;
     w: string;
+    IsNew: boolean;
 }
 
-const ProjectCard = ({ h, w }: ProjectCardProps) => {
+const ProjectCard = ({ h, w, IsNew = false }: ProjectCardProps) => {
     return (
         <section
             className="relative bg-[#E5E7EC] mx-auto my-4 rounded-xl"
@@ -18,6 +19,7 @@ const ProjectCard = ({ h, w }: ProjectCardProps) => {
                 alt="star"
                 width={40}
                 height={40}
+                hidden={!IsNew}
             />
         </section>
     );
