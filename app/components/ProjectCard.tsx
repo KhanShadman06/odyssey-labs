@@ -4,7 +4,7 @@ import star from '../assets/star.svg';
 interface ProjectCardProps {
     h: string;
     w: string;
-    IsNew: boolean;
+    IsNew?: boolean;
 }
 
 const ProjectCard = ({ h, w, IsNew = false }: ProjectCardProps) => {
