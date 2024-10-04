@@ -10,7 +10,7 @@ interface ProjectCardProps {
 const ProjectCard = ({ h, w, IsNew = false }: ProjectCardProps) => {
     return (
         <section
-            className="relative bg-[#E5E7EC] mx-auto my-4 rounded-xl"
+            className="relative bg-[#E5E7EC] rounded-xl"
             style={{ width: w, height: h }}
         >
             <Image
