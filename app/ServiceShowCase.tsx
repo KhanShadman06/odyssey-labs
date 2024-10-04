@@ -13,7 +13,7 @@ const ServiceShowCase = () => {
                 <p className="font-Archivo text-[#444] mx-6 mt-5 text-sm w-3/4">
                     Odyssey Labs offers a range of services to help you achieve your goals. From branding and web design to development and operations, we have the skills and experience to help you succeed.
                 </p>
-                <div className='absolute -right-[2.4rem] bg-[#9DFF50] -rotate-90'>
+                <div className='absolute -right-[2.3rem] bg-[#9DFF50] -rotate-90'>
                     <p className="text-xs p-1 px-3 font-Archivo">WHAT WE DO</p>
                 </div>
             </section>
