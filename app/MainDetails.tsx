@@ -23,8 +23,8 @@ const MainDetails = () => {
                     Despite being a small team, we believe that our size gives us an advantage, allowing us to be nimble, adaptable, and able to work closely with our clients to deliver truly awesome designs.
                 </p>
                 <section>
-                    <ProjectCard w="343px" h="264px" IsNew/>
-                    <ProjectCard w="343px" h="570px" />
+                    <ProjectCard w="343px" h="264px" IsNew />
+                    <ProjectCard w="343px" h="570px" IsNew={false} />
                 </section>
 
             </article>
