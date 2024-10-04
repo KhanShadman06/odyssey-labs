@@ -4,6 +4,7 @@ import ServicesList from "./ServicesList";
 import TopSection from "./TopSection";
 import Image from 'next/image'
 import starWhite from './assets/star-white.svg'
+import HowItWorksSection from "./HowItWorksSection";
 
 const MainDetails = () => {
     return (
@@ -23,12 +24,16 @@ const MainDetails = () => {
                 </article>
             </section>
 
-            <section className="relative bg-[#222] h-[600px]">
+            <section className="relative bg-[#222]">
                 <div className="absolute -top-7 left-0 right-0 h-20 bg-white transform -skew-y-[8deg] border-b-[20px] border-[#9DFF50]"></div>
                 <Image src={starWhite} alt='star' className='absolute top-24 left-2 w-[20px]' />
+                <Image src={starWhite} alt='star' className='absolute top-96 right-6 w-[20px]' />
                 <div className='absolute -right-[2.7rem] top-24 bg-[#333] text-white -rotate-90'>
                     <p className="text-xs p-1 px-3 font-Archivo">HOW IT WORKS</p>
                 </div>
+                <article className="relative z-1 pt-44">
+                    <HowItWorksSection />
+                </article>
             </section>
         </div>
     );
