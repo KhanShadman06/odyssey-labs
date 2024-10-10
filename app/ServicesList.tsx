@@ -4,11 +4,18 @@ import UIDesignDetails from './UIDesignDetails'
 
 const ServicesList = () => {
     return (
-        <div>
-            <ServiceSectionBtn IsActive no={`01`} label='UI/UX Design' />
-            <UIDesignDetails />
-            <ServiceSectionBtn IsActive={false} no={`02`} label='Web Development' />
-            <ServiceSectionBtn IsActive={false} no={`03`} label='SEO Optimization' />
+        <div className='lg:px-40 md:flex justify-between'>
+            <section>
+                <ServiceSectionBtn IsActive no={`01`} label='UI/UX Design' />
+                <div className='md:hidden'>
+                    <UIDesignDetails />
+                </div>
+                <ServiceSectionBtn IsActive={false} no={`02`} label='Web Development' />
+                <ServiceSectionBtn IsActive={false} no={`03`} label='SEO Optimization' />
+            </section>
+            <div className='hidden md:block'>
+                <UIDesignDetails />
+            </div>
         </div>
     )
 }

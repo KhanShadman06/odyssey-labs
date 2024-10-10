@@ -10,7 +10,7 @@ interface TestimonialCardProps {
 
 export const TestimonialCard = ({ name, position, description }: TestimonialCardProps) => {
     return (
-        <div className='bg-[#2A2A2A] w-[343px] h-[200px] rounded-3xl'>
+        <div className='bg-[#2A2A2A] w-[343px] h-[200px] md:min-w-[400px] rounded-3xl'>
             <section className='p-7'>
                 <div className='flex gap-3 items-center justify-between'>
                     <div className='flex items-center gap-3'>

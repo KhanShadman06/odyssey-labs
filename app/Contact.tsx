@@ -8,20 +8,20 @@ import ProjectCard from './components/ProjectCard'
 const Contact = () => {
     return (
         <>
-            <div className='flex justify-between items-center mx-6 font-monument font-bold'>
+            <div className='flex justify-between items-center mx-6 font-monument font-bold md:text-2xl lg:text-3xl xl:text-4xl'>
                 <h1>Innovate</h1>
-                <Image src={star} alt='star' className='w-[30px]' />
+                <Image src={star} alt='star' className='w-[30px] md:w-[40px] xl:w-[60px]' />
                 <h1>Inspire</h1>
-                <Image src={star} alt='star' className='w-[30px]' />
+                <Image src={star} alt='star' className='w-[30px] md:w-[40px] xl:w-[60px]' />
                 <h1>Create</h1>
             </div>
             <div className='flex justify-between m-6'>
-                <Image src={blackLine} alt='black line' />
-                <Image src={starblack} alt='black line' className='w-10' />
+                <Image src={blackLine} alt='black line'/>
+                <Image src={starblack} alt='black line' className='w-10 md:w-16 xl:w-20' />
                 <Image src={blackLine} alt='black line' />
             </div>
             <section className='flex flex-col items-center my-4'>
-                <ProjectCard w='340px' h='300px' />
+                <ProjectCard className="w-[340px] h-[300px] lg:w-[500px] lg:h-[570px] min-h-[400px]" />
             </section>
             <section className='mx-6 text-center text-sm font-Archivo'>
                 <p>{`Finding the right talent for your business can be a daunting task. Let Catalyst Studio's hiring agency take the guesswork out of the process and help you find the perfect fit for your team`}</p>
