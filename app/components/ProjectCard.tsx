@@ -2,17 +2,13 @@ import Image from 'next/image';
 import star from '../assets/star.svg';
 
 interface ProjectCardProps {
-    h: string;
-    w: string;
     IsNew?: boolean;
+    className?: string;
 }
 
-const ProjectCard = ({ h, w, IsNew = false }: ProjectCardProps) => {
+const ProjectCard = ({ IsNew = false, className = '' }: ProjectCardProps) => {
     return (
-        <section
-            className="relative bg-[#E5E7EC] rounded-xl"
-            style={{ width: w, height: h }}
-        >
+        <section className={`relative bg-[#E5E7EC] rounded-xl ${className}`}>
             <Image
                 className="absolute -left-5 -top-2"
                 src={star}

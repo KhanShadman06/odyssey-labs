@@ -13,17 +13,17 @@ const MainDetails = () => {
     return (
         <div>
             <TopSection />
-            <section className="relative z-10 flex md:justify-center items-start overflow-y-clip overflow-x-scroll pt-5">
-                <div className='w-full max-w-[190px] max-h-[190px] min-w-[190px] min-h-[190px] bg-[#E5E7EC] border-[5px] rounded-xl rotate-6 border-white ml-6 z-10' />
-                <div className='w-full max-w-[190px] max-h-[190px] min-w-[190px] min-h-[190px] bg-[#E5E7EC] border-[5px] rounded-xl -rotate-6 border-white mt-5' />
+            <section className="relative z-10 flex overflow-x-auto xl:justify-center items-start p-10 space-x-6">
+                <div className="w-full max-w-[290px] max-h-[290px] min-w-[150px] min-h-[150px] sm:min-w-[190px] sm:min-h-[190px] md:min-w-[290px] md:min-h-[290px] bg-[#E5E7EC] border-[5px] rounded-xl rotate-6 border-white z-10" />
+                <div className="w-full max-w-[290px] max-h-[290px] min-w-[150px] min-h-[150px] sm:min-w-[190px] sm:min-h-[190px] md:min-w-[290px] md:min-h-[290px] bg-[#E5E7EC] border-[5px] rounded-xl -rotate-6 border-white" />
 
-                <div className='w-full max-w-[190px] max-h-[190px] min-w-[190px] min-h-[190px] bg-[#E5E7EC] border-[5px] rounded-xl rotate-6 border-white ml-6 z-10' />
-                <div className='w-full max-w-[190px] max-h-[190px] min-w-[190px] min-h-[190px] bg-[#E5E7EC] border-[5px] rounded-xl -rotate-6 border-white mt-5' />
+                <div className="w-full max-w-[290px] max-h-[290px] min-w-[150px] min-h-[150px] sm:min-w-[190px] sm:min-h-[190px] md:min-w-[290px] md:min-h-[290px] bg-[#E5E7EC] border-[5px] rounded-xl rotate-6 border-white z-10" />
+                <div className="w-full max-w-[290px] max-h-[290px] min-w-[150px] min-h-[150px] sm:min-w-[190px] sm:min-h-[190px] md:min-w-[290px] md:min-h-[290px] bg-[#E5E7EC] border-[5px] rounded-xl -rotate-6 border-white" />
             </section>
 
             <section className="relative bg-[#F6EFF4] pb-10">
                 <div className="absolute -top-24 left-0 right-0 h-36 bg-[#F6EFF4] transform skew-y-[2deg]"></div>
-                <article className="relative z-1 pt-14">
+                <article className="relative pt-14">
                     <ProjectShowCase />
                     <ServiceShowCase />
                     <ServicesList />
