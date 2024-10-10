@@ -13,13 +13,16 @@ const MainDetails = () => {
     return (
         <div>
             <TopSection />
-            <section className="relative z-10 mt-10 flex overflow-hidden pt-5">
-                <div className='w-[190px] h-[190px] bg-[#E5E7EC] border-[5px] rounded-xl rotate-6 border-white ml-6 z-10' />
-                <div className='w-[190px] h-[190px] bg-[#E5E7EC] border-[5px] rounded-xl -rotate-6 border-white mt-5' />
+            <section className="relative z-10 mt-10 flex md:justify-center overflow-y-hidden overflow-x-scroll pt-5 ">
+                <div className='w-full max-w-[190px] max-h-[190px] min-w-[190px] min-h-[190px] bg-[#E5E7EC] border-[5px] rounded-xl rotate-6 border-white ml-6 z-10' />
+                <div className='w-full max-w-[190px] max-h-[190px] min-w-[190px] min-h-[190px] bg-[#E5E7EC] border-[5px] rounded-xl -rotate-6 border-white mt-5' />
+
+                <div className='w-full max-w-[190px] max-h-[190px] min-w-[190px] min-h-[190px] bg-[#E5E7EC] border-[5px] rounded-xl rotate-6 border-white ml-6 z-10' />
+                <div className='w-full max-w-[190px] max-h-[190px] min-w-[190px] min-h-[190px] bg-[#E5E7EC] border-[5px] rounded-xl -rotate-6 border-white mt-5' />
             </section>
 
             <section className="relative bg-white pb-10">
-                <div className="absolute -top-7 left-0 right-0 h-20 bg-white transform skew-y-[8deg]"></div>
+                <div className="absolute -top-7 left-0 right-0 h-80 bg-white transform skew-y-[4deg]"></div>
                 <article className="relative z-1 pt-14">
                     <ProjectShowCase />
                     <ServiceShowCase />

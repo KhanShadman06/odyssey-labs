@@ -3,7 +3,7 @@ import React from 'react'
 const TopSection = () => {
     return (
         <>
-            <section className="flex mx-10 gap-5 items-center mt-10">
+            <section className="flex mx-10 gap-5 justify-center items-center mt-10">
                 <h3 className="font-monument text-2xl font-bold bg-[#9DFF50] p-3 text-[#222] inline-block rounded-xl transform -skew-x-12" >Odyssey</h3>
                 <h1 className="inline-block text-2xl text-white font-monument">
                     Labs
