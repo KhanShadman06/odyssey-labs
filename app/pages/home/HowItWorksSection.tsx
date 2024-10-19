@@ -1,5 +1,5 @@
 import React from 'react'
-import DetailProjectCard from './components/DetailProjectCard'
+import DetailProjectCard from '../../components/DetailProjectCard'
 
 const HowItWorksSection = () => {
     return (

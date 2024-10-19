@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
-import star from './assets/star.svg'
-import blackLine from './assets/line-black.svg'
-import starblack from './assets/star-black.svg'
-import ProjectCard from './components/ProjectCard'
+import star from '../../assets/star.svg'
+import blackLine from '../../assets/line-black.svg'
+import starblack from '../../assets/star-black.svg'
+import ProjectCard from '../../components/ProjectCard'
 
 const Contact = () => {
     return (

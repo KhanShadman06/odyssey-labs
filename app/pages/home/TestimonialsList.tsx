@@ -1,7 +1,7 @@
 import React from 'react'
-import { TestimonialCard } from './components/TestimonialCard'
-import ArrowLeft from './assets/arrow-left-white.svg'
-import ArrowRight from './assets/arrow-right-fill-white.svg'
+import { TestimonialCard } from '../../components/TestimonialCard'
+import ArrowLeft from '../../assets/arrow-left-white.svg'
+import ArrowRight from '../../assets/arrow-right-fill-white.svg'
 import Image from 'next/image'
 const TestimonialsList = () => {
     return (

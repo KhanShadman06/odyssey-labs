@@ -1,6 +1,6 @@
 import React from 'react'
-import OdysseyLogo from './assets/odyssey.svg'
-import Ham from './assets/ham.svg'
+import OdysseyLogo from '../../assets/odyssey.svg'
+import Ham from '../../assets/ham.svg'
 import Image from 'next/image'
 const Nav = () => {
     return (

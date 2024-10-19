@@ -1,11 +1,11 @@
 import React from 'react'
-import logo from './assets/odyssey.svg'
+import logo from '../../assets/odyssey.svg'
 import Image from 'next/image'
 
-import facebook from './assets/facebook.svg'
-import linkedin from './assets/linkedin.svg'
-import github from './assets/github.svg'
-import dirbbble from './assets/dribbble.svg'
+import facebook from '../../assets/facebook.svg'
+import linkedin from '../../assets/linkedin.svg'
+import github from '../../assets/github.svg'
+import dirbbble from '../../assets/dribbble.svg'
 
 const Footer = () => {
     return (

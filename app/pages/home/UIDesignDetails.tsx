@@ -1,6 +1,6 @@
 import React from 'react'
-import ProjectCard from './components/ProjectCard'
-import ShowMoreBtn from './components/ShowMoreBtn'
+import ProjectCard from '../../components/ProjectCard'
+import ShowMoreBtn from '../../components/ShowMoreBtn'
 
 const UIDesignDetails = () => {
     return (

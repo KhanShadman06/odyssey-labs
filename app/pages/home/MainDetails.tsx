@@ -3,7 +3,7 @@ import ServiceShowCase from "./ServiceShowCase";
 import ServicesList from "./ServicesList";
 import TopSection from "./TopSection";
 import Image from 'next/image'
-import starWhite from './assets/star-white.svg'
+import starWhite from '../../assets/star-white.svg'
 import HowItWorksSection from "./HowItWorksSection";
 import OurBestWorks from "./OurBestWorks";
 import TestimonialsList from "./TestimonialsList";

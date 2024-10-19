@@ -1,5 +1,5 @@
 import React from 'react'
-import ServiceSectionBtn from './components/ServiceSectionBtn'
+import ServiceSectionBtn from '../../components/ServiceSectionBtn'
 import UIDesignDetails from './UIDesignDetails'
 
 const ServicesList = () => {
