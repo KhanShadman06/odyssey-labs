@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c898718-8fdc-4c15-840e-9170eb7d29f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/SingleBox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/HeroHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/TagButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/MainDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/MainDetails.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/Nav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/TopSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/TopSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2ncUFXpfEbjhduZeHODAuGXlCia" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;case-study-mobile&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/shadman/projects/odyssey-labs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/shadman/projects/odyssey-labs/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/pages/Case Study List " />
+      <recent name="$PROJECT_DIR$/app/pages/home" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c898718-8fdc-4c15-840e-9170eb7d29f6" name="Changes" comment="" />
+      <created>1729271754699</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729271754699</updated>
+      <workItem from="1729271755812" duration="1757000" />
+      <workItem from="1729273978983" duration="138000" />
+      <workItem from="1729274128288" duration="2372000" />
+      <workItem from="1729364869347" duration="3327000" />
+      <workItem from="1729399380827" duration="5000" />
+      <workItem from="1733932363473" duration="264000" />
+      <workItem from="1733932635738" duration="51000" />
+      <workItem from="1733932695199" duration="188000" />
+      <workItem from="1733932894034" duration="464000" />
+      <workItem from="1734103140405" duration="6595000" />
+      <workItem from="1734358159263" duration="18606000" />
+      <workItem from="1734388272020" duration="333000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
